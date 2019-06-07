@@ -1,6 +1,6 @@
 -   id: copyright_checker
     language: system
-    name: Pivotal Copyright Checkier
+    name: Pivotal Copyright Checker
     entry: copyright_checker
     files: .py
     types: [file, python]
