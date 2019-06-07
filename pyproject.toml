@@ -6,7 +6,7 @@ authors = ["Steven K <steven@pivotal.energy>"]
 url = "https://github.com/pivotal-energy-solutions/pre-commit-hooks"
 
 [tool.poetry.dependencies]
-python = "^2.7"
+python = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
