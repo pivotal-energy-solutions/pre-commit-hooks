@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pre_commit_hooks"
+name = "pre-commit-hooks"
 version = "0.1.0"
 description = ""
 authors = ["Steven K <steven@pointcircle.com>"]
@@ -16,3 +16,5 @@ build-backend = "poetry.masonry.api"
 
 [tool.poetry.scripts]
 copyright_checker='pre_commit_hooks:copyright_checker:main'
+
+
