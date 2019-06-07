@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pivotal-pre-commit-hooks"
+name = "pre-commit-hooks"
 version = "0.1.4"
 description = "Some out-of-the-box hooks for pre-commit."
 authors = ["Steven K <steven@pivotal.energy>"]
@@ -15,5 +15,5 @@ pytest = "^3.0"
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
-[tool.poetry.console_scripts]
+[tool.poetry.scripts]
 copyright-checker = "pre_commit_hooks.copyright_checker:main"
