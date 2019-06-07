@@ -3,6 +3,6 @@
     description: Ensure that the copyright is on python files
     entry: copyright-checker
     language: python
-    types: [text]
+    types: [python]
     exclude: '^.git/|^.idea/|^.venv/|migrations/'
     minimum_pre_commit_version: 0.15.0
