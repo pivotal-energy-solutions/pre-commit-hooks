@@ -15,4 +15,4 @@ requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry.scripts]
-copyright_checker='copyright_checker:main'
+copyright_checker='pre_commit_hooks:copyright_checker:main'
