@@ -17,3 +17,4 @@ build-backend = "poetry.masonry.api"
 
 [tool.poetry.scripts]
 copyright-checker = "pre_commit_hooks.copyright_checker:main"
+check-futures = "pre_commit_hooks.futures_check:main"

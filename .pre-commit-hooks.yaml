@@ -6,3 +6,11 @@
     types: [python]
     exclude: '^.git/|^.idea/|^.venv/|migrations/'
     minimum_pre_commit_version: 0.15.0
+-   id: check-futures
+    name: Pivotal Copyright Checker
+    description: Ensure that futures are in place
+    entry: check-futures
+    language: python
+    types: [python]
+    exclude: '^.git/|^.idea/|^.venv/|migrations/'
+    minimum_pre_commit_version: 0.15.0
